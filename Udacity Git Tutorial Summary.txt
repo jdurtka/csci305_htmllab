@@ -66,3 +66,35 @@ Subjects:
 				4. git commit
 
 		-The value of merging the MASTER node back into other branches
+
+-Remote repositories
+	-git remote
+	-git remote add REMOTE_NAME
+	-git remote -v
+	-git remote remove REMOTE_NAME
+	-git remote push REMOTE_NAME LOCAL_BRANCH
+	-git remote pull REMOTE_NAME REMOTE_BRANCH
+
+	-NB: REMOTE_NAME is typically origin (unless there are multiple remotes)
+
+	-Github
+		-Creating account
+		-Creating repositories
+		-Forking
+		-Pull requests
+
+	-git clone http://url.com/something.git
+
+	-Local/Remote conflicts:
+		-git fetch (updates local copy of last known remote)
+		-get pull (updates local copy of last known remote, merges with master)
+			-Fast forward merging (when one branch can be reached from the other)
+		-git log BRANCH_NAME
+		-git log REMOTE_NAME/master (typically origin/master)
+		-git status
+			-Ahead
+			-Behind
+			-Up-to-date
+			-Out-of-sync
+
+	-Bitbucket (like GitHub, but with free unlimited private repositories)
