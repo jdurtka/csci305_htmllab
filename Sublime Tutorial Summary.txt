@@ -1,0 +1,50 @@
+SUBLIME TUTORIAL
+
+PART 1 (https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-getting-started-and-keyboard-shortcuts)
+-Installation
+-Package Control (https://packagecontrol.io/installation)
+-Keyboard shortcuts (@https://scotch.io/bar-talk/sublime-text-keyboard-shortcuts)
+	-The command palette keyboard shortcut Ctrl-Shift-P
+	-The file switching keyboard shortcut Ctrl-P
+	-Go to keyboard shortcut Ctrl-R
+	-Search a file, then page Ctrl-P, @
+	-Search an entire project Ctrl-Shift-R
+	-Multi select and edit Ctrl-D
+	-Multiple cursors with Ctrl-click
+	-Other useful options
+
+PART 2 (https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-themes-color-schemes-and-cool-features)
+-Themes and color schemes
+-Project Management (Alt-Ctrl-P)
+-Vintage (Vi/Vim compatibility) Mode
+-Find and Replace (Ctrl-Shift-F)
+	-Regular expression search
+-Sorting and Permuting Lists
+-Minimap
+-Configuration (default and user)
+
+PART 3 (https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-plugins-part-1)
+-Plugins
+	-Advanced New File (Ctrl-Alt-N)
+	-SideBarEnhancements
+	-Alignment (Ctrl-Alt-A)
+	-AlignTab
+	-BracketHighlighter
+	-ClipboardHistory (Ctrl-Alt-V)
+	-ColorPicker
+	-Minifier
+	-HTMLPrettify
+	-Snippets
+
+PART 4 (https://scotch.io/bar-talk/the-complete-visual-guide-to-sublime-text-3-plugins-part-2)
+-More plugins
+	-Less2Css
+	-SassforSublime
+	-Emmet
+	-Github Gists as Snippets
+	-Git
+	-Git Gutter
+	-DocBlockr
+	-Comment Snippets
+	-Markdown Preview
+	-Other useful plugins
