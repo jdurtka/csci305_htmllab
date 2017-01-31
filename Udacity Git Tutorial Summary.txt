@@ -1,0 +1,68 @@
+Udacity Course: How to Use Git and Github
+https://www.udacity.com/course/how-to-use-git-and-github--ud775
+
+Subjects:
+-The value of using diff/fc to find differences in source code
+	-Reflections
+	-git diff COMMIT_ID1 COMMIT_ID2
+-File history
+	-git log
+-Commits
+	-How often to commit
+	-Pros/cons of automatic saving vs. commits
+-Installing Git
+-Cloning repositories
+	-git clone
+-Checking out repositories
+	-Detaching the head
+	-Effect on log when checking out old repositories
+(Exercises)
+
+-Making a brand new repository
+	-git init
+		-No initial commit after running this command
+	-git status
+		-General purpose value of this command
+
+-Adding/Changing files
+	-The staging area
+		-git reset
+	-git add
+		-More about git status
+	-git commit
+		-Commit Message
+		-(via Google: the -m 'message' flag)
+	-More on git diff (no arguments, --staging)
+	-git reset
+		-git reset --hard (USE WITH CARE)
+
+-Branches
+	-MASTER branch
+	-git branch
+		-git branch NAME
+		-More about git checkout (using with branches)
+			-Abbreviated version git checkout -b NAME
+	-Meaning of the 'detached HEAD' message
+	-Merging branches
+		-git merge BRANCH1 BRANCH2
+		-Effect on the log
+			-Effect on git diff when comparing versions from different branches
+			-git show COMMIT_ID
+		-Deleting a branch
+			-git branch -d NAME
+				-(Can result in permanently losing a branch!)
+
+		-NOTE: merge also includes the most recently checked out branch
+		 (even if it isn't one of the two listed in the command!)
+
+		 -git log --graph
+		 -git log -n 1
+
+		-How merge conflicts are handled
+			-Resolving merge conflicts:
+				1. Edit code appropriately
+				2. git status
+				3. git add FILENAME
+				4. git commit
+
+		-The value of merging the MASTER node back into other branches
